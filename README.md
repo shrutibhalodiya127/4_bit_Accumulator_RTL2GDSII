@@ -38,9 +38,17 @@ The design was verified in Xilinx Vivado with the following test cases:
 
 ## 🎨 Physical Design Gallery
 * Floorplan: T-shaped core orientation with 8.5% utilization.
+  <img width="906" height="616" alt="image" src="https://github.com/user-attachments/assets/031b2e4d-6e77-429d-a92a-65ac8d99e260" />
+
 * Placement: Optimized cell placement based on powerplan.
+  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/70dea03a-c046-4d17-bd7f-90050a58c56a" />
+
 * Clock Tree: Synthesized clock tree with optimized latency.
+  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ea8e03d2-4640-4b5f-92f7-c6160de4aef6" />
+
 * GDS-II Layout: Final routed design ready for fabrication.
+  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/76bf86f0-2083-4a96-b828-bb11a61ff265" />
+
 
 ---
 Submitted by: Shruti Bhalodiya (24BEC075)  
