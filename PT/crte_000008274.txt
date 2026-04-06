@@ -1,0 +1,419 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+8274
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Sun Apr 05 02:02:16 EDT 2026 (1775368936)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: ict-chipin.sot.pdpu.ac.in
+arch: x86_64
+release_version: 4.18.0-553.el8_10.x86_64
+
+SECTION_IPC_INFO
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 4          shruti_bha 600        524288     2          dest         
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems     
+
+
+SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 60086
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 262144
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 16384
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 60086
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 262144
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 4194304
+_SC_CHILD_MAX= 60086
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/home/synopsys_install/prime/W-2024.09/linux64/syn/bin/pt_shell_exec -root_path /home/synopsys_install/prime/W-2024.09 -shell Timing
+
+SECTION_CPUINFO
+total_core: 16
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 1433
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 7 7730U with Radeon Graphics
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+cpu_family: 25
+core_frequency_mhz: 400
+core_per_socket: 0
+stepping: 0
+cache_size_kb: 512
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+Rocky Linux release 8.10 (Green Obsidian)
+
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/compact_unevictable_allowed:1
+/proc/sys/vm/compaction_proactiveness:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:20
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/dirtytime_expire_seconds:43200
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/force_cgroup_v2_swappiness:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/legacy_willneed_readahead:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32	0	0
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/numa_stat:1
+/proc/sys/vm/numa_zonelist_order:Node
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/page_lock_unfairness:5
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:60
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/watermark_boost_factor:15000
+/proc/sys/vm/watermark_scale_factor:10
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+swap_partition: /dev/dm-1
+size_gb: 7
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1775368936155
+
+SECTION_MPSTAT
+total_core: 16
+
+CPU     %user   %kernel %wait   %idle   
+all   0.201245 0.301292 0.005690 99.491768
+0     0.103502 0.317613 0.005997 99.572891
+1     0.311888 0.363389 0.006216 99.318504
+2     0.207222 0.644098 0.010439 99.138245
+3     0.295118 0.247153 0.018875 99.438850
+4     0.092364 0.216923 0.003775 99.686935
+5     0.338492 0.130070 0.003329 99.528107
+6     0.128152 0.246088 0.005553 99.620209
+7     0.114332 0.294155 0.003996 99.587517
+8     0.210754 0.572743 0.004220 99.212280
+9     0.095026 0.154529 0.005995 99.744453
+10     0.409489 0.386394 0.005108 99.199005
+11     0.149195 0.115004 0.002442 99.733360
+12     0.134610 0.336303 0.003776 99.525307
+13     0.235156 0.325754 0.003553 99.435539
+14     0.210526 0.251609 0.004219 99.533646
+15     0.179829 0.214019 0.001776 99.604378
+SECTION_LOADAVG
+0.75 0.49 0.26 1/697 11133
+
+SECTION_PID_STATUS
+name: pt_shell_exec
+state: 1
+vmsize: 3184252
+vmrss: 1046700
+vmdata: 1372712
+vmstk: 136
+vmexe: 602988
+vmlib: 418252
+threads: 44
+
+SECTION_PROCESS_CPU_UTIL
+pid: 8274
+cpu_total_time: 7205637
+cpu_used_time: 68690
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 15464884
+memfree: 10865932
+cached: 2079488
+swapcached: 0
+active: 1249464
+swaptotal: 7929852
+swapfree: 7929852
+
+SECTION_SMAPS
+shared_kb: 10500
+private_kb: 1038368
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        69G  9G  60G    14
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          36700160  208339 36491821   4294949881
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        165G  70G  94G    43
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          86808576  820274 85988302   90
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        69G  9G  60G    14
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          36700160  208339 36491821   4294949881
+
+SECTION_SWAP_RATE
+blk_read: 4432
+blk_wrtn: 0
+swap_in_rate: 
+swap_out_rate: 
+swap_in_rate: 
+swap_out_rate: 
+
+SECTION_FD_SIZE
+files: 43
+total_size: 1137347
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 2
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+    lo:           0        0        0        0
+enp3s0f3u1:         0        0        0        0
+
+SECTION_NFSSTAT
+Error: Could not collect the data.
+
+SECTION_THREAD_CPU_UTIL
+8274 : 8274 (pt_shell_exec) R 4494 8260 7284 0 -1 4210688 89359 155038 450 877 3206 5518 896 389 20 0 44 0 193364 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 0 2097152 1268285183 0 0 0 17 9 0 0 19 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8275 : 8275 (jemalloc_bg_thd) S 4494 8260 7284 0 -1 1077952576 0 155038 0 877 0 0 896 389 20 0 44 0 193385 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147221247 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8276 : 8276 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 2 155038 0 877 0 0 896 389 20 0 44 0 193393 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 1 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8277 : 8277 (pt_shell_exec) S 4494 8260 7284 0 -1 4210752 2 155038 0 877 0 0 896 389 20 0 44 0 193545 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147221247 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8283 : 8283 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8284 : 8284 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 15 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8285 : 8285 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8286 : 8286 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8287 : 8287 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8288 : 8288 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 2 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 0 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8289 : 8289 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 20 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8290 : 8290 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 28 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8291 : 8291 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 5 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8292 : 8292 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 111 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8293 : 8293 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 15 155038 0 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8294 : 8294 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 9494 155038 0 877 23 1 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8295 : 8295 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 133 155038 1 877 0 0 896 389 20 0 44 0 193951 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8296 : 8296 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 4 155038 0 877 0 0 896 389 20 0 44 0 193955 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8308 : 8308 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 0 155038 0 877 0 0 896 389 20 0 44 0 193965 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 15 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8309 : 8309 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 0 155038 0 877 0 0 896 389 20 0 44 0 193965 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8310 : 8310 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 0 155038 0 877 0 0 896 389 20 0 44 0 193965 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8311 : 8311 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 0 155038 0 877 0 0 896 389 20 0 44 0 193965 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8312 : 8312 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 2 155038 0 877 2 10 896 389 20 0 44 0 193997 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 1 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8313 : 8313 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 0 155038 0 877 2 11 896 389 20 0 44 0 193997 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8314 : 8314 (pt_shell_exec) S 4494 8260 7284 0 -1 1077952576 0 155038 0 877 2 11 896 389 20 0 44 0 193997 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8344 : 8344 (QXcbEventQueue) S 4494 8260 7284 0 -1 4210752 24 155038 0 877 1 5 896 389 20 0 44 0 194707 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 1 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8345 : 8345 (llvmpipe-0) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 4 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8346 : 8346 (llvmpipe-1) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 3 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8347 : 8347 (llvmpipe-2) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8348 : 8348 (llvmpipe-3) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8349 : 8349 (llvmpipe-4) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 1 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8350 : 8350 (llvmpipe-5) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 15 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8351 : 8351 (llvmpipe-6) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8352 : 8352 (llvmpipe-7) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 11 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8353 : 8353 (llvmpipe-8) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 7 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8354 : 8354 (llvmpipe-9) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 2 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8355 : 8355 (llvmpipe-10) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 0 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8356 : 8356 (llvmpipe-11) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 14 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8357 : 8357 (llvmpipe-12) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 13 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8358 : 8358 (llvmpipe-13) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 5 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8359 : 8359 (llvmpipe-14) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 6 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8360 : 8360 (llvmpipe-15) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 194711 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 2147220735 2097152 1268285183 0 0 0 -1 9 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8366 : 8366 (pt_shell_exec) S 4494 8260 7284 0 -1 4210752 1 155038 0 877 491 2869 896 389 20 0 44 0 194754 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 1 0 0 -1 12 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+8424 : 8424 (Thread (pooled)) S 4494 8260 7284 0 -1 1077952576 1 155038 0 877 0 0 896 389 20 0 44 0 198411 3260674048 261675 18446744073709551615 2097152 619552896 140728299445376 0 0 0 8192 2097152 1268285183 0 0 0 -1 8 0 0 0 0 0 620889344 643461912 759406592 140728299451210 140728299451343 140728299451343 140728299458483 0
+
+CRTE_PERIODIC_END 1 1775368936155
